@@ -26,5 +26,3 @@ $('#conversion').click(function(){
     let minutes = parseInt($('#minutes').val());
     $('#p2').text("Temps en secondes : " + conversion(jours, heures, minutes));
 })
-
-////
