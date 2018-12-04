@@ -17,7 +17,7 @@ $('#calculer').click(function(){
 
 function conversion (jours, heures, minutes){
 
-return (jours*24*60*60) + (heures*60*60) + (minutes*60);
+return (jours*24*3600) + (heures*3600) + (minutes*60);
 }
 
 $('#conversion').click(function(){
